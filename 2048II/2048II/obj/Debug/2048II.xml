@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+2048II
+</name>
+</assembly>
+<members>
+<member name="T:_2048II.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:_2048II.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:_2048II.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:_2048II.frm2048.hasShownMessage">
+ <summary>
+ 2048合成已经提示标志
+ </summary>
+</member>
+<member name="F:_2048II.frm2048.RollbackScore">
+ <summary>
+ 合成回退步数的分数的一半
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.frm2048_Load(System.Object,System.EventArgs)">
+ <summary>
+ 表示4*4网格，用label来表示每个格子的数字
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_2048II.frm2048.KeyUp_Click(System.Object,System.EventArgs)">
+ <summary>
+ 向上移动
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_2048II.frm2048.KeyDown_Click(System.Object,System.EventArgs)">
+ <summary>
+ 向下移动
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_2048II.frm2048.KeyLeft_Click(System.Object,System.EventArgs)">
+ <summary>
+ 向左移动
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_2048II.frm2048.KeyRight_Click(System.Object,System.EventArgs)">
+ <summary>
+ 向右移动
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_2048II.frm2048.InitializeGameBoard">
+ <summary>
+ 生成16个label并且把他们添加到4*4的网格中
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.AddNewRandomNumber">
+ <summary>
+ 增加随机数字2或4
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.UpdateScores">
+ <summary>
+ 更新当前的分数以及最高分
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.RestartKey_Click(System.Object,System.EventArgs)">
+ <summary>
+ 点击restart按钮后重新开始游戏
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:_2048II.frm2048.RestartGame">
+ <summary>
+ 重新开始游戏
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.UpdateBlockColour">
+ <summary>
+ 根据数值不同给每个数字方块添加背景色
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.CheckWin">
+ <summary>
+ 检查是否生成数字2048
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.CheckGameOver">
+ <summary>
+ 判断游戏是否结束
+ </summary>
+</member>
+<member name="M:_2048II.frm2048.ProcessDialogKey(System.Windows.Forms.Keys)">
+ <summary>
+ lixinAdd
+ </summary>
+ <param name="keyData"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>
